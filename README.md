@@ -9,7 +9,7 @@ In this assignment, we created a VBA script to analyze stock results for our fri
 
 - **Yearly Return**: the percentage difference, increase or decrease, in price from the beginning of the year to the end of the year.
 
-With a simple click of a button, the final product allows Steve to generate a report that is quickly and easily understood for a large number of stocks. 
+With a simple click of a button, Steve can now generate easy to understand reports for a large number of stocks. 
 
 ## Results
 
@@ -52,5 +52,5 @@ Run Times After Refactoring:
 ## Summary
 Refactoring is an important part of the code writing process that typically results in improved performance. However, refactoring should only be done when there is enough time available to fully test the results. In some cases, it may be more efficient to completely re-write the code rather than investing the time to refactor existing code. All code, original and refactored, must be thoroughly tested before it is released.  
 
-In this particular case, refactoring was extremely beneficial since it results in a code that Steve can use for large datasets. This will not only benefit Steve's parents, but the information on a larger number of stocks will help him provide better advice for all of his clients. 
+In this particular case, refactoring was extremely beneficial since it results in a code that Steve can use for large datasets. This will not only benefit Steve's parents, but the information on a large number of stocks will help him provide better advice for all of his clients. 
 
