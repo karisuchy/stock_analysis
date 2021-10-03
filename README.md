@@ -5,23 +5,25 @@ Analysis stock of green energy companies
 
 In this assignment, we created a VBA script to analyze stock results for our friend Steve so he can help his parents choose the best green energy companies for investing. The analysis considers:  
 
-- **Daily Volume**: the total number of shares traded throughout the day to measure how actvively a stock is traded. 
+- **Daily Volume**: the total number of shares traded throughout the day to measure how actively  a stock is traded. 
 
-- **Yearly Return**: the percentage difference (increase or decrease) in price from the beginning of the year to the end of the year.
+- **Yearly Return**: the percentage difference, increase or decrease, in price from the beginning of the year to the end of the year.
 
-The end product gave Steve the tools he needs to easily run the program on his own and generate results that are quickly and easily understood. 
+With a simple click of a button, the final product allows Steve to generate a report that is quickly and easily understood for a large number of stocks. 
 
 ## Results
 
 ### Stock Performance
-Twelve different stocks were analzed over two years. The results clearly show that 2017 was a profitable year for investors of green energy but 2018 was not. Only two companies, ENPH and RUN had positive returns both years with ENPH far outperforming their competitors from the beginning of 2017 trough the end of 2018. 
+Twelve different stocks were analyzed over two years. The results clearly show that 2017 was a profitable year for investors of green energy but 2018 was not. Only two companies, ENPH and RUN had positive returns both years with ENPH far outperforming their competitors from the beginning of 2017 through the end of 2018. 
 
 ![2017 Chart](https://user-images.githubusercontent.com/90162669/135764716-6891e396-b8ca-400c-afb3-7f2c35cad7e8.png)
 
 ![2018 Chart](https://user-images.githubusercontent.com/90162669/135764487-0c62f6ff-10ed-4c02-b97d-0845de5a49f8.png)
 
 ### Refactoring
-The original code that was designed for this assignment had otwo loops (a loop within a loop) which required the program to run through the data hundreds of times. To improve run time, an addtional array was added to capture total volume, starting  price, and ending price. This allowed for the elimination of the inner loop. The refractured code below only loops through the worksheet twelve times creating a much more efficient code.   
+Refactoring is the process of looking at current code and finding ways to make it more efficient. Efficiency can be achieved in several ways such as reducing the number of steps or finding better methods to complete the required tasks. In this case, the greatest improvement that resulted from refactoring the code was the elimination of one of our two _for loops_. 
+
+The original code that was designed for this assignment had two for loops (a loop within a loop) which required the program to run through the data set hundreds of times. To improve run time, an additional array was added to capture total volume, starting  price, and ending price. This allowed for the elimination of the inner for loop. The refractured code below only loops through the worksheet twelve times creating much quicker run times.   
 
 ![Refactored Code](https://user-images.githubusercontent.com/90162669/135765206-28d64019-7396-4bf1-a8d1-24cd06aac61c.png)
 
@@ -48,10 +50,7 @@ Run Times After Refactoring:
 
 
 ## Summary
-"What are the advantages or disadvantages of refactoring code?
-"How do these pros and cons apply to refactoring the original VBA script?
-"there must be a deteailed statementent of the advantages and disadvantages or refactoring code in general
-"There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script
+Refactoring is an important part of the code writing process that typically results in improved performance. However, refactoring should only be done when there is enough time available to fully test the results. In some cases, it may be more efficient to completely re-write the code rather than investing the time to refactor existing code. All code, original and refactored, must be thoroughly tested before it is released.  
 
-Could use different shades of green to better differentiate the levels or degrees of positve performance. 
+In this particular case, refactoring was extremely beneficial since it results in a code that Steve can use for large datasets. This will not only benefit Steve's parents, but the information on a larger number of stocks will help him provide better advice for all of his clients. 
 
